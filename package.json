@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "contract": "npx tsc && cd ./dist/src/cmd/contract.js"
+    "contract": "npx tsc && node ./dist/src/cmd/contract.js"
   },
   "author": "",
   "license": "ISC",
